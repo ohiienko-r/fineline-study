@@ -1,2 +1,2 @@
 # fineline-study
-In this project I'm going to create some kind of library with all necessary information for creating PCB.
+This is a knowledge base of FineLine USA for a rookies.
