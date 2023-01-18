@@ -101,7 +101,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero__quote-container {
-    width: 1250px;
+    max-width: 1250px;
     margin-left: 150px;
 }
 
@@ -134,6 +134,7 @@ body::-webkit-scrollbar-thumb {
 
     border: 1px solid var(--palepurple);
 
+    flex: 1 1 auto;
 }
 
 .lections-block__lection-tile:hover {
@@ -185,9 +186,6 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-between;
 
     background: rgba(0, 0, 0, 0.1);
-    mix-blend-mode: normal;
-    backdrop-filter: blur(10px);
-
 }
 
 .footer__basic-info {
@@ -216,6 +214,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 14px;
 
     background-color: rgba(255, 255, 255, 0);
+
     text-decoration: underline rgba(255, 255, 255, 0);
     transition: text-decoration-color 0.5s, background-color 0.5s;
 }
