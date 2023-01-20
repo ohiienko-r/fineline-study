@@ -1,0 +1,27 @@
+.hero {
+    height: 100vh;
+    background: url(../../img/hero-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.hero__text {
+    height: 91.5vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero__quote-container {
+    max-width: 1250px;
+    margin-left: 150px;
+}
+
+.hero__quote {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 150%;
+    letter-spacing: 0.075em;
+
+    color: var(--white);
+}

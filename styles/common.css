@@ -1,0 +1,34 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --main: #25274D;
+    --grey: #aaabb8;
+    --accent: #29648A;
+    --palepurple: #464866;
+}
+
+.wrapper {
+    background-color: var(--main);
+}
+
+.container {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--main);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--palepurple);
+    outline: 1px solid var(--palepurple);
+}

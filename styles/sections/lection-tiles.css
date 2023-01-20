@@ -1,0 +1,55 @@
+.lections-block {
+    padding: 120px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.lections-block__lection-tile {
+    width: 500px;
+    height: 400px;
+
+    border: 1px solid var(--palepurple);
+
+    flex: 1 1 auto;
+}
+
+.lections-block__lection-tile:hover {
+    border: 1px solid var(--main);
+    transition: border 0.5s;
+}
+
+.lections-block__lection-link {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline rgba(255, 255, 255, 0);
+    transition: text-decoration-color 0.5s, background-color 0.5s;
+}
+
+.lections-block__lection-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.lections-block__lection-ico {
+    width: 96px;
+
+    margin-bottom: 20px;
+}
+
+.lections-block__lection-name {
+    color: var(--white);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}

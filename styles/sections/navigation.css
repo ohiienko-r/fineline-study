@@ -1,0 +1,49 @@
+.navigation__company-logo {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.035em;
+}
+
+.navigation__logo-part-one {
+    color: #0057B8;
+}
+
+.navigation__logo-part-two {
+    color: #FFD700;
+}
+
+.navigation__company-logo {
+    color: var(--white);
+}
+
+.navigation__contact-link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.075em;
+    color: var(--white);
+
+    text-decoration: underline rgba(255, 255, 255, 0);
+    transition: text-decoration-color 0.5s;
+}
+
+.navigation__contact-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.navigation {
+    height: 80px;
+    padding: 0 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.1);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(10px);
+}
