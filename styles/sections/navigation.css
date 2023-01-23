@@ -3,7 +3,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: 0.035em;
+    letter-spacing: 0.030em;
 }
 
 .navigation__logo-part-one {
@@ -23,7 +23,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
-    letter-spacing: 0.075em;
+    letter-spacing: 0.070em;
     color: var(--white);
 
     text-decoration: underline rgba(255, 255, 255, 0);
