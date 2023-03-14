@@ -51,3 +51,9 @@
 .footer__social-media-icon {
     width: 36px;
 }
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .footer {
+        padding: 80px 70px;
+    }
+}
